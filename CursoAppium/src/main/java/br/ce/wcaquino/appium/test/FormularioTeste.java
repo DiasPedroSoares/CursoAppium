@@ -14,8 +14,8 @@ import br.ce.wcaquino.appium.page.MenuPage;
 public class FormularioTeste {
 	
 	
-	private MenuPage menu = new MenuPage();
-	private FormularioPage formulario = new FormularioPage();
+	private final MenuPage menu = new MenuPage();
+	private final FormularioPage formulario = new FormularioPage();
 	
 	@Before
 	public void iniciarlizarAppium(){
